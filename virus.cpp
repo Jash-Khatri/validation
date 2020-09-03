@@ -21,10 +21,10 @@ int main(){
 			cin >> cont[i];
 		}
 
-		// case where forall i cont[i] are same
+		
 		if( x >= cont[0] ){
 			cout << n << "\n";
-			//cout << "in";
+			
 		}
 		if(x < cont[0]){
 			int t1 = cont[0];
@@ -36,7 +36,7 @@ int main(){
 					cont[0] = cont[1];
 				x *= 2;
 				ans++;
-				//cout << cont[0] << " " << x << " " << ans << "\n";
+				
 			}
 			
 		cout << (ans + n - 1 ) << "\n" ;
